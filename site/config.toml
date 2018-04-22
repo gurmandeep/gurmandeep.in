@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://elastic-swanson-5add13.netlify.com"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "hugo-uno"
