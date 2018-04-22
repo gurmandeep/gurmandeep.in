@@ -1,0 +1,3 @@
+[submodule "site/themes/hugo-uno"]
+	path = site/themes/hugo-uno
+	url = https://github.com/jpescador/hugo-uno.git
