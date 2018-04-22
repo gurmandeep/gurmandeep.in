@@ -1,4 +1,4 @@
-baseURL = "https://gurmandeep.netlify.com/"
+baseURL = "/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "hugo-uno"
