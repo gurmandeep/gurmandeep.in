@@ -1,6 +1,6 @@
 ---
 title: Angular HTTP GET Request with Firebase
-date: 2017-08-01T12:11:56+05:30
+date: 2017-08-01T06:41:56.000Z
 description: Angular HTTP GET Request with Firebase
 ---
 Hi Folks, In Previous Post we have seen how to send http post request to Firebase.
@@ -11,25 +11,15 @@ First of all open http.service.ts and replace it with the code below:
 
 ```
 import { Injectable } from '@angular/core';
-```
 
-```
 import { Http, Response, Headers } from '@angular/http';
-```
 
-```
 import { Observable } from "rxjs/Observable";
-```
 
-```
 import 'rxjs/Rx';
-```
 
-```
 @Injectable()
-```
 
-```
 export class HttpService {
 ```
 
