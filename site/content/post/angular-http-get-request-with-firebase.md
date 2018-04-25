@@ -60,101 +60,53 @@ Now open all-data.component.ts and replace it with following code
 
 ```
 import { Component, OnInit } from '@angular/core';
-```
 
-```
 import { HttpService } from '../../Services/http.service';
-```
 
-```
 import { Response, Http } from '@angular/http';
-```
 
-```
 @Component({
-```
 
-```
   selector: 'app-all-data',
-```
 
-```
   templateUrl: './all-data.component.html',
-```
 
-```
   styleUrls: ['./all-data.component.css']
-```
 
-```
 })
-```
 
-```
 export class AllDataComponent implements OnInit {
-```
 
-```
 items:any = [];
-```
 
-```
   constructor(public httpService:HttpService) { }
-```
 
-```
   ngOnInit() {
-```
 
-```
   		this.httpService.getFunc().subscribe(
-```
 
-```
   				data => {
-```
 
-```
   			const myArr = [];
-```
 
-```
   			const itemKey = [];
-```
 
-```
   			for(let key in data){
-```
 
-```
   				myArr.push(data[key]);
-```
 
-```
   				itemKey.push(key);
-```
 
-```
   			}
-```
 
-```
   			this.items = myArr;
-```
 
-```
   		}
-```
 
-```
   			)
-```
 
-```
   }
-```
 
-```
 }
 ```
 
@@ -162,49 +114,29 @@ Open all-data.component.html and replace it with the following
 
 ```
 <div class="list-group">
-```
 
-```
  <h3 class="text-center">Angular Http GET Request</h3>
-```
 
-```
  <a *ngFor="let item of items" class="list-group-item list-group-item-action flex-column align-items-start">
 ```
 
 ```
  <div class="d-flex w-100 justify-content-between">
-```
 
-```
  <h5 class="mb-1">{{item.title}}</h5>
-```
 
-```
  <small class="text-muted">Latest</small>
-```
 
-```
  </div>
-```
 
-```
  <p class="mb-1">{{item.content}}</p>
-```
 
-```
  <small class="text-muted">{{item.content}}.</small>
-```
 
-```
  </a>
-```
 
-```
  <a routerLink='/sendData' class="btn btn-primary">Back</a>
-```
 
-```
 </div>
 ```
 
@@ -216,121 +148,63 @@ so now open app.module.ts and replace it with the following code
 
 ```
 import { BrowserModule } from '@angular/platform-browser';
-```
 
-```
 import { NgModule } from '@angular/core';
-```
 
-```
 import { FormsModule } from '@angular/forms';
-```
 
-```
 import { HttpModule } from '@angular/http';
-```
 
-```
 import { AppComponent } from './app.component';
-```
 
-```
 import { FormComponent } from './Components/form/form.component';
-```
 
-```
 import { AllDataComponent } from './Components/all-data/all-data.component';
-```
 
-```
 import { HttpService } from './Services/http.service';
-```
 
-```
 import { Routes, RouterModule } from '@angular/router';
-```
 
-```
 const appRouter:Routes=[
-```
 
-```
  { path:"allData", component:AllDataComponent },
-```
 
-```
  { path:"sendData", component:FormComponent},
-```
 
-```
  { path: '', redirectTo: '/sendData', pathMatch: 'full' }
-```
 
-```
 ]
-```
 
-```
 @NgModule({
-```
 
-```
   declarations: [
-```
 
-```
 \    AppComponent,
-```
 
-```
 \    FormComponent,
-```
 
-```
 \    AllDataComponent
-```
 
-```
   ],
-```
 
-```
   imports: [
-```
 
-```
 \    BrowserModule,
-```
 
-```
 \    FormsModule,
-```
 
-```
 \    HttpModule,
-```
 
-```
 \    RouterModule.forRoot(appRouter)
-```
 
-```
   ],
-```
 
-```
   providers: [HttpService],
-```
 
-```
   bootstrap: [AppComponent]
-```
 
-```
 })
-```
 
-```
 export class AppModule { }
 ```
 
