@@ -43,6 +43,8 @@ Run Following command to create component
 
 Now copy selector from form.component.ts and paste it into app.components.html
 
+![](/img/2017-02-26_00-04-25-1.png)
+
 Open form.component.html and replace with following
 
 ```
