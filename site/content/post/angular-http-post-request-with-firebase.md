@@ -78,6 +78,8 @@ npm install bootstrap@3
 
 Now open angular-cli.json and inlcude bootstrap path into styles.
 
+![](/img/2017-01-30_22-35-24.png)
+
 Restart your app
 Now form is ready :)
 
