@@ -1,6 +1,6 @@
 ---
 title: Angular HTTP POST Request with Firebase
-date: 2017-02-27T16:57:33+05:30
+date: 2017-02-27T11:27:33.000Z
 description: Angular HTTP POST Request with Firebase
 image: /img/an2-1.jpg
 ---
@@ -36,8 +36,8 @@ Now open app folder and create Components folder.
 
 Run Following command to create component
 
-> ng g c Components/form
-> Here g is generate , c is component, Components is folder name and form is component name
+ ng g c Components/form
+ Here g is generate , c is component, Components is folder name and form is component name
 
 Now copy selector from form.component.ts and paste it into app.components.html
 
