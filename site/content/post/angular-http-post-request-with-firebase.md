@@ -87,6 +87,10 @@ SETUP Firebase
 
 Open firebase.google.com then go to console and create project
 
+![](/img/2017-02-01_21-09-42.png)
+
+![](/img/2017-02-04_12-50-33.png)
+
 After creating project click on it and then click on database.
 we have to change rules to write and read the data.
 
@@ -99,6 +103,8 @@ ng g s Services/http
 ```
 
 now open app.module.ts and import service
+
+![](/img/2017-02-04_13-11-26.png)
 
 After importing service open http.service.ts
 
@@ -125,6 +131,8 @@ export class HttpService {
 ```
 
 Now open Firebase and click on Database and copy endpoint and replace it into http.service.ts
+
+![](/img/2017-02-04_23-33-13-copy.png)
 
 Now open form.component.ts and replace with the following
 
@@ -160,6 +168,8 @@ content:any;
 Your application is ready. Now open http://localhost:4200
 
 Enter title and content and submit it
+
+![](/img/2017-02-05_17-06-44.png)
 
 open firebase to check your submitted data.
 
