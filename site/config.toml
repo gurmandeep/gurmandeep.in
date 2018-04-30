@@ -1,6 +1,6 @@
 baseURL = "https://elastic-swanson-5add13.netlify.com"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Gurmandeep Singh"
 theme = "hugo-uno"
 
 
@@ -19,16 +19,14 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
    tag = "tags"
 [Params]
   AuthorName = "Fredrik"
-  github = "Senjindarashiva"
-  bitbucket = "floch"
-  flickr = "senjin"
-  twitter = "senjindarshiva"
-  email = "mail@fredrikloch.me"
+  github = "gurmandeep"
+  twitter = "iamgurmandeep"
+  email = "gsing.singh@gmail.com"
   description = "Love to Code"
-  cv = "/pages/cv"
-  legalnotice = "/pages/legal-notice"
+
   muut = "fredrikloch"
-  linkedin = "fredrikloch"
+  linkedin = "iamgurmandeep"
+  facebook = "iamgurmandeep"
   cover = "/images/background-cover.jpg"
-  logo = "/img/logo-1.jpg"
+  logo = "/images/logo-1.jpg"
 
