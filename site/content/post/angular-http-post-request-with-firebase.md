@@ -34,6 +34,8 @@ and you will see the front page of your Application
 
 Now open app folder and create Components folder.
 
+![App works](/img/2017-01-30_21-40-53.png)
+
 Run Following command to create component
 
  ng g c Components/form
