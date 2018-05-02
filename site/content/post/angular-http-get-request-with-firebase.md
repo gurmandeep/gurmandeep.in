@@ -1,6 +1,6 @@
 ---
 title: Angular HTTP GET Request with Firebase
-date: 2017-03-10T10:51:28+05:30
+date: 2017-03-10T05:21:28.000Z
 description: Angular HTTP GET Request with Firebase
 ---
 Hi Folks, In Previous Post, we have seen how to send HTTP post request to Firebase.
@@ -44,15 +44,19 @@ export class HttpService {
 
 }
 ```
+
 Component
 
 Now we are going to create a component that will display the data.
 
 open cmd and run
+
 ```
 ng g c Components/allData
 ```
+
 Now open all-data.component.ts and replace it with following code
+
 ```
 import { Component, OnInit } from '@angular/core';
 
@@ -104,6 +108,7 @@ items:any = [];
 
 }
 ```
+
 Open all-data.component.html and replace it with the following
 
 ```
@@ -131,6 +136,7 @@ Open all-data.component.html and replace it with the following
 
 </div>
 ```
+
 Guys, In the previous post we did not make routes because we have only one view but now we have to create routes because we have multiple views.
 
 One view will display the form that will use to send post request and another one will display data.
@@ -198,6 +204,7 @@ AllDataComponent
 
 export class AppModule { }
 ```
+
 So the app is ready now. :)
 
 Run command
@@ -206,13 +213,13 @@ ng serve
 
 open URL http://localhost:4200
 
+![](/img/postrequest.png)
+
 After submitting your data open http://localhost:4200/allData
 
 and see your submitted data
 
-You can see the demo here
-
-http://gurmandeep.in/ng-http-request
+![](/img/2017-03-08_22-13-52.png)
 
 You can download the source from my GitHub Repository
 
