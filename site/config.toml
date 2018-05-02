@@ -21,9 +21,9 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
   AuthorName = "Fredrik"
   github = "gurmandeep"
   twitter = "iamgurmandeep"
-  email = "gsing.singh@gmail.com"
+  email = "gsings.singh@gmail.com"
   description = "Love to Code"
-
+  cv = "/resume.pdf"
 
   linkedin = "iamgurmandeep"
   facebook = "iamgurmandeep"
