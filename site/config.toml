@@ -1,4 +1,4 @@
-baseURL = "https://elastic-swanson-5add13.netlify.com"
+baseURL = "http://gurmandeep.in"
 languageCode = "en-us"
 title = "Gurmandeep Singh"
 theme = "hugo-uno"
