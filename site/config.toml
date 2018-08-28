@@ -1,4 +1,4 @@
-baseURL = "http://gurmandeep.in"
+baseURL = "https://gurmandeep.in"
 languageCode = "en-us"
 title = "Gurmandeep Singh"
 theme = "hugo-uno"
